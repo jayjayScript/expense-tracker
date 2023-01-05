@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    
+    <div class="body">
+        <header>
+            <div class="header_sect container flex_center block_sm  " >
+                <div class="logo">
+                    <img src="./src/image/logo.svg" alt="">
+                </div>
+    
+                <div class="toggle">
+                    
+                </div>
+
+                <nav class="nav_bar">
+                    <ul class="nav_list block-bg">
+                        <li class="list"><a href="#">Home</a></li>
+                        <li class="list"><a href="#">History</a></li>
+                        <button id="more">More</button>
+                        <div class="dropdown">
+                            <li class="list"><a href="#">Stats</a></li>
+                            <li class="list" id="darkmode">Theme <span></span> </li>
+                            <li class="list" ><button id="exit">Exit</button></li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+
+           
+
+        </header>
+
+
+        <section class="tracker_input">
+
+            <div class="form column container gap block-bg ">
+                <h4>Add New Record</h4>
+                <form action="" id="form" class="column gap-sm">
+                    <input type="text" name="title" id="title" placeholder="Title">
+                    <input type="number" name="amount" id="amount" placeholder="Amount">
+                    <select name="type" id="type">
+                        <option selected>Select Transaction</option>
+                        <option value="expense">Expense</option>
+                        <option value="income">Income</option>
+                    </select>
+
+                    <input type="submit" value="ADD RECORD">
+                </form>
+            </div>
+
+        </section>
+
+        <footer class="footer">
+           <div>
+            <p>BUILT @UDUAKEX ACADEMY</p>
+           </div>
+        </footer>
+    </div>
+
+
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
